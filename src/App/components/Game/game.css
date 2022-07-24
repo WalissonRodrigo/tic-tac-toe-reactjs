@@ -3,3 +3,28 @@
     justify-content: center;
     font-size: 1.5rem;
 }
+
+.no-winner {
+    display: none;
+}
+
+.winner-effect {
+    display: block;
+    animation: move 5s infinite;
+}
+
+@keyframes move {
+    
+    0% {
+        transform: translate3d(57vw, -40px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(57vw, -240px, 0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(57vw, -520px, 0px);
+        animation-timing-function: ease-in;
+    }
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Board from "../Board";
+import baloes from './baloes.png';
 import "./game.css";
 
 export default function Game() {
@@ -98,6 +99,9 @@ export default function Game() {
             </ul>
           ))}
         </>
+      </div>
+      <div className="winner">
+            <img src={baloes} alt="Baloes" width={200} className={winner ? 'winner-effect': 'no-winner'}/>
       </div>
     </div>
   );
