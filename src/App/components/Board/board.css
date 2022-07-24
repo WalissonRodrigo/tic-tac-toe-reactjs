@@ -1,0 +1,16 @@
+.square {
+    height: 6rem;
+    width: 6rem;
+    margin: 1rem;
+}
+
+.status {
+    font-size: 6.5rem;
+    box-shadow: 1rem;
+}
+
+.board-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
